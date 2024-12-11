@@ -1,0 +1,59 @@
+{
+    "error_map":{
+        "error.api.link.unsupported": "サポートされていないサービス",
+        "error.api.link.invalid": "無効なURL",
+        "error.api.invalid_body": "無効なURL",
+        "error.api.link.missing": "URLが入力されていません",
+        "error.api.content.post.age": "コンテンツには年齢制限があります",
+        "error.api.content.too_long": "動画が長すぎます（180分制限）",
+        "error.api.content.video.unavailable": "動画が利用できません",
+        "unknownError": "不明なエラー"
+    },
+    "windowsTitle": "動画ダウンローダー",
+    "preference_menu":{
+        "preference": "設定",
+        "languageSetting": "言語設定",
+        "saveButton": "保存",
+        "closeButton": "閉じる"
+    },
+    "downloadHistory_menu":{
+        "downloadHistory": "ダウンロード履歴",
+        "notice": "古すぎるファイルリンクは無効になります。ダウンロードできない場合は、再度動画リンクを入力してください。",
+        "clearButton": "履歴を削除",
+        "refrashButton": "再読み込み",
+        "list":{
+            "noData": "データがありません",
+            "number": "番号",
+            "downloadDate": "ダウンロード日",
+            "fileName": "ファイル名",
+            "fileLink": "ファイルリンク",
+            "originalURL": "元の動画URL"
+        },
+        "deleteConfirmTitle": "削除確認",
+        "deleteConfirmText": "すべてのデータを削除してもよろしいですか？この操作は元に戻せません。"
+    },
+    "downloadButton": "ダウンロード",
+    "downloadOptionsTitle": "ダウンロードオプション",
+    "downloadOptionsButton":{
+        "videoAndAudio": "動画と音声",
+        "audioOnly": "音声のみ",
+        "videoOnly": "動画のみ"
+    },
+    "downloadStatusTitle": "ダウンロード状態：",
+    "status":{
+        "ready": "サービスは準備完了、待機中...",
+        "downloading": "ダウンロード中...",
+        "requestFail": "リクエスト失敗、ネットワーク接続を確認してください",
+        "fail": "失敗",
+        "success": "ダウンロード成功"
+    },
+    "infoTitle":{
+        "error": "エラーメッセージ",
+        "download": "ダウンロードメッセージ",
+        "fileLink": "ファイルリンク"
+    },
+    "infoDescription":{
+        "failToConnectToServer": "サーバーに接続できません",
+        "notDownload": "ダウンロードしていません"
+    }
+}

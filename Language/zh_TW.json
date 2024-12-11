@@ -1,0 +1,59 @@
+{
+    "error_map":{
+        "error.api.link.unsupported": "不支援的服務",
+        "error.api.link.invalid": "無效的網址",
+        "error.api.invalid_body": "無效的網址",
+        "error.api.link.missing": "尚未輸入網址",
+        "error.api.content.post.age": "影像設有年齡限制",
+        "error.api.content.too_long": "影片過長(限制180分鐘)",
+        "error.api.content.video.unavailable": "無法取得影片",
+        "unknownError": "未知的錯誤"
+    },
+    "windowsTitle": "影片下載器",
+    "preference_menu":{
+        "preference": "偏好設定",
+        "languageSetting": "語言設置",
+        "saveButton": "保存",
+        "closeButton": "關閉"
+    },
+    "downloadHistory_menu":{
+        "downloadHistory": "歷史下載清單",
+        "notice": "過久的檔案連結會失效，若無法下載請重新輸入影音連結下載",
+        "clearButton": "清除紀錄",
+        "refrashButton": "重新整理",
+        "list":{
+            "noData": "沒有資料",
+            "number": "編號",
+            "downloadDate": "下載日期",
+            "fileName": "檔案名稱",
+            "fileLink": "檔案連結",
+            "originalURL": "影音原網址"
+        },
+        "deleteConfirmTitle": "刪除確認",
+        "deleteConfirmText": "確定要清除所有資料嗎？此動作無法還原。"
+    },
+    "downloadButton": "下載",
+    "downloadOptionsTitle": "下載選項",
+    "downloadOptionsButton":{
+        "videoAndAudio": "下載影音",
+        "audioOnly": "只載聲音",
+        "videoOnly": "只載影片"
+    },
+    "downloadStatusTitle": "下載狀態:",
+    "status":{
+        "ready": "服務已準備就緒，等待中...",
+        "downloading": "下載中...",
+        "requestFail": "請求失敗，請檢查網路連線",
+        "fail": "失敗",
+        "success": "下載成功"
+    },
+    "infoTitle":{
+        "error" : "錯誤訊息",
+        "download": "下載訊息",
+        "fileLink": "檔案連結"
+    },
+    "infoDescription":{
+        "failToConnectToServer": "無法連線至伺服器",
+        "notDownload": "尚未下載"
+    }
+}

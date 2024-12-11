@@ -1,0 +1,59 @@
+{
+    "error_map": {
+        "error.api.link.unsupported": "Unsupported service",
+        "error.api.link.invalid": "Invalid URL",
+        "error.api.invalid_body": "Invalid URL",
+        "error.api.link.missing": "URL not entered",
+        "error.api.content.post.age": "Content has age restriction",
+        "error.api.content.too_long": "Video too long (limit 180 minutes)",
+        "error.api.content.video.unavailable": "Unable to retrieve video",
+        "unknownError": "Unknown error"
+    },
+    "windowsTitle": "Video Downloader",
+    "preference_menu": {
+        "preference": "Preferences",
+        "languageSetting": "Language Setting",
+        "saveButton": "Save",
+        "closeButton": "Close"
+    },
+    "downloadHistory_menu": {
+        "downloadHistory": "Download History",
+        "notice": "Links to files that are too old may expire. If the download fails, please re-enter the video link to download.",
+        "clearButton": "Clear History",
+        "refrashButton": "Refresh",
+        "list": {
+            "noData": "No Data",
+            "number": "Number",
+            "downloadDate": "Download Date",
+            "fileName": "File Name",
+            "fileLink": "File Link",
+            "originalURL": "Original Video URL"
+        },
+        "deleteConfirmTitle": "Delete Confirmation",
+        "deleteConfirmText": "Are you sure you want to clear all data? This action cannot be undone."
+    },
+    "downloadButton": "Download",
+    "downloadOptionsTitle": "Download Options",
+    "downloadOptionsButton": {
+        "videoAndAudio": "Video and Audio",
+        "audioOnly": "Audio Only",
+        "videoOnly": "Video Only"
+    },
+    "downloadStatusTitle": "Download Status:",
+    "status": {
+        "ready": "Service is ready, waiting...",
+        "downloading": "Downloading...",
+        "requestFail": "Request failed, please check your network connection",
+        "fail": "Failed",
+        "success": "Download successful"
+    },
+    "infoTitle": {
+        "error": "Error Message",
+        "download": "Download Info",
+        "fileLink": "File Link"
+    },
+    "infoDescription": {
+        "failToConnectToServer": "Unable to connect to server",
+        "notDownload": "Not yet downloaded"
+    }
+}
