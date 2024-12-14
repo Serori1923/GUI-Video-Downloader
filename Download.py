@@ -44,17 +44,12 @@ def updateUI():
     optionBtn3.config(text=text["downloadOptionsButton"]["videoOnly"], bg="#5a5158", fg="#d8f2da")
 
     #更新下載狀態
+    download_Status_label.config(text=text["downloadStatusTitle"])
     stauts.config(text=text["status"]["ready"], fg="#678F8D")
+
+    #更新下載資訊
     info_Title_label.config(text=text["infoTitle"]["download"])
     info_Description_label.config(text=text["infoDescription"]["notDownload"])
-
-    #更新下載狀態訊息
-    download_Status_label.config(text=text["downloadStatusTitle"], bg="#d8f2da", fg="#678F8D")
-    stauts.config(text=text["status"]["ready"], bg="#d8f2da", fg="#678F8D")
-
-    #更新下載錯誤訊息
-    info_Title_label.config(text=text["infoTitle"]["download"], bg="#d8f2da", fg="#678F8D")
-    info_Description_label.config(text=text["infoDescription"]["notDownload"], bg="#d8f2da", fg="#aaa5ec")
 
     #更新偏好設定中的語言設置
     preference_Window.title(text["preference_menu"]["preference"])
@@ -171,8 +166,6 @@ def openDownloadHistoryWindow():
         screen_width = downloadHistory_Window.winfo_screenwidth()
         screen_height = downloadHistory_Window.winfo_screenheight()
         downloadHistory_Window.geometry(f"{screen_width-20}x{screen_height-100}+0+10")
-        # downloadHistory_Window.geometry("1500x500+400+200")
-        # downloadHistory_Window.attributes("-fullscreen", True)
         downloadHistory_Window.minsize(1000,500)
         downloadHistory_Window.configure(bg="#d8f2da")
         downloadHistory_Window.iconbitmap(iconPath)
@@ -323,8 +316,8 @@ def Download():
         info_Title_label.config(text=text["infoTitle"]["error"])
         error_map = text["error_map"]
         info_Description_label.config(text=f"{error_map.get(response_dict['error']['code'], error_map['unknownError'])}") #從error_map中取得錯誤提示
-        print(response_dict['error'])
         info_Description_label.unbind("<Button-1>") #取消超連結與Label綁定
+        print(response_dict['error'])
 
     else:
         stauts.config(text=text["status"]["success"], fg="#65c365")
