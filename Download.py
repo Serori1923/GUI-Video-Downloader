@@ -301,7 +301,7 @@ def Download():
     stauts.config(text=text["status"]["downloading"], fg="#678F8D")
     root.update_idletasks() #強制刷新 GUI，讓文字立刻更新
     try:
-        response = requests.post('http://192.168.50.51', headers=setting["headers"], data=json.dumps(requestsData)) #向API發送資料
+        response = requests.post('https://meow.akkkou.com/', headers=setting["headers"], data=json.dumps(requestsData)) #向API發送資料
         response_dict = response.json() #解析API回傳資料
         
     except requests.RequestException as e:
