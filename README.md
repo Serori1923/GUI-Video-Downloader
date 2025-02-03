@@ -4,7 +4,7 @@
 
 > [!NOTE]  
 > **Deprecated Project**<br>
-> This project has been discontinued and rebuilt as **[New Video Downloader]([https://github.com/your-repo/new-video-download](https://github.com/Serori1923/new-video-downloader))**, featuring a completely restructured architecture, an improved UI, and an enhanced user experience.
+> This project has been discontinued and rebuilt as **[new-video-downloader](https://github.com/Serori1923/new-video-downloader)**, featuring a completely restructured architecture, an improved UI, and an enhanced user experience.
 
 ## Overview
 The **UI Video Downloader** is a user-friendly application for downloading videos from popular platforms such as YouTube, X (Twitter), TikTok, and Instagram.
